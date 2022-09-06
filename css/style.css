@@ -1,0 +1,178 @@
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* COMMON */
+
+html{
+    font-family: Whitney, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+
+}
+/* HEADER */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-position: center;
+    height: 300px;
+}
+
+.background{
+    background-color: #d3d3d3;
+}
+
+.up-bar{
+    /* background-color: #add8e6; */
+    height: 50px;
+}
+
+
+button{
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.up-items{
+    /* background-color: #daa520; */
+    flex-grow: 1;
+}   
+
+.dx{
+    text-align: end;
+}
+
+.center{
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+
+.menu{
+    padding: 10px;
+    font-size: .8em;
+}
+
+ /* banner */
+.banner{
+    /* background-color: #02028b; */
+    height: 400px;
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+.button2{
+    color: white;
+    background-color: #23272a;
+}
+
+.slide{
+    /* background-color: #ee82ee;
+    border: black dashed 1px; */
+    height: 300px;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+
+/* MAIN */
+.main-layout{
+    width: 100%;
+    padding: 5% 20% 5% 20%;
+    display: flex;
+}
+.main-item{
+    /* background-color: #1d90ff; */
+    /* border: black dashed 1px; */
+    height: 300px;
+    width: 70%;
+}
+
+.main-text{
+    /* background-color: #ffbfcb; */
+    /* border: black dashed 1px; */
+    width: 30%; 
+
+}
+
+.screenshot{
+    width: 100%;
+
+}
+
+.comment{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.main-big-item{
+    /* background-color: #228b22;
+    border: black dashed 1px; */
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+/* FOOTER */
+.other{
+    background-color: #23272a;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-p{
+    background-color: #f07f80;
+    height: 300px;
+    width: 30%;
+    border: black dashed 1px;
+}
+
+.footer-s{
+    background-color: #20b2aa;
+    height: 300px;
+    width: 15%;
+    border: white dashed 1px;
+}
+
+.credits{
+    height: 50px;
+    width: 100%;
+    background-color: #23272a;
+    border-top: white solid 1px;
+    padding-left: 18%;
+    padding-right: 18%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.green{
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 80%;
+}
+
+div>span{
+    background-color: #ffb6c1;
+    border: black dashed 1px;
+}

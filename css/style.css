@@ -84,6 +84,10 @@ h1{
 }
 
 /* MAIN */
+.wave{
+    fill: black;
+}
+
 .main-layout{
     width: 100%;
     padding: 5% 20% 5% 20%;

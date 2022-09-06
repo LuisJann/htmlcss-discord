@@ -30,7 +30,8 @@ header{
 }
 
 .background{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
+    margin-bottom: -1%;
 }
 
 .up-bar{
@@ -85,7 +86,13 @@ h1{
 
 /* MAIN */
 .wave{
-    fill: black;
+    width: 100%;
+    margin-bottom: -1%;
+}
+
+.wave-r{
+    width: 100%;
+    transform: rotate(180deg);
 }
 
 .main-layout{
